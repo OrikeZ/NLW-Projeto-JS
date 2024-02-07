@@ -29,3 +29,22 @@ classificador de um item
 core, modelo peso etc
 
 eu acesso uma propriedade do objeto é usando a variavel + . + o nome da propriedade
+
+
+quando eu preciso acessar um fvilhjo dentro de um id de uma tag eu uso espaço
+ex:
+
+consta nomes = document.queryselector("#nome span) 
+// assim eu acesso dentro do id nome a tag span
+
+<div id="nome">
+  <strong> oi </strong>
+  <span> ola </span>
+</Div>
+
+##CSS 
+
+Cascading Style Sheet
+
+folha de estilo em cascata
+
