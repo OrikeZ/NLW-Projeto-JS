@@ -12,7 +12,7 @@ uma tag por ter mais de uma função
 
 um link usa a tag <a> hyperlink </a>
 
-Div não tem um significado em si  omo os h1 h2 em titulos mas o div serve para dividir um local
+Div não tem um significado em si como os h1 h2 em titulos mas o div serve para dividir um local
 mas podemos classificar com class
 
 span faz com o que o conteudo fique sempre alinhado em seguida da tag anterior
