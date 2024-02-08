@@ -1,96 +1,95 @@
 const perguntas = [
   {
-    pergunta: "O que significa JavaScript?",
+    pergunta: "Qual é o principal objetivo da Terapia Cognitivo Comportamental?",
     respostas: [
-      "Java para web",
-      "Linguagem de programação para páginas web interativas",
-      "Java para desenvolvimento mobile",
+      "Explorar o inconsciente",
+      "Identificar e modificar padrões de pensamento disfuncionais",
+      "Promover a introspecção profunda",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a principal função do comando 'document.getElementById()' em JavaScript?",
+    pergunta: "Em que se baseia a TCC para tratar transtornos psicológicos?",
     respostas: [
-      "Alterar o estilo de um elemento HTML",
-      "Selecionar um elemento HTML pelo seu ID",
-      "Criar um novo elemento HTML",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
-    respostas: [
-      "var",
-      "variable",
-      "vrb",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "O que é um array em JavaScript?",
-    respostas: [
-      "Um tipo de dado para armazenar apenas números",
-      "Uma estrutura de controle de fluxo",
-      "Uma coleção ordenada de valores",
+      "Apenas em medicamentos",
+      "Somente em mudanças comportamentais",
+      "Modificar pensamentos e comportamentos",
     ],
     correta: 2
   },
   {
-    pergunta: "O que é o DOM (Document Object Model) em JavaScript?",
+    pergunta: "Quem são os principais fundadores da Terapia Cognitivo Comportamental?",
     respostas: [
-      "Uma linguagem de programação",
-      "Um modelo para interação com o usuário",
-      "Uma representação estruturada de um documento HTML",
+      "Sigmund Freud",
+      "Aaron Beck e Albert Ellis",
+      "Carl Rogers",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a ênfase da TCC no tratamento de transtornos mentais?",
+    respostas: [
+      "Apenas em medicamentos",
+      "Apenas em mudanças comportamentais",
+      "Modificar pensamentos e comportamentos",
+    ],
+    correta: 3
+  },
+  {
+    pergunta: "O que são distorções cognitivas na Terapia Cognitivo Comportamental?",
+    respostas: [
+      "Padrões de comportamento repetitivos",
+      "Erros sistemáticos no processamento de informações",
+      "Sintomas físicos de transtornos mentais",
     ],
     correta: 2
   },
   {
-    pergunta: "O que é uma função em JavaScript?",
+    pergunta: "Como a TCC aborda o conceito de autoeficácia?",
     respostas: [
-      "Um loop de repetição",
-      "Um bloco de código que pode ser chamado e executado",
-      "Uma variável global",
+      "Ignora completamente",
+      "Enfatiza a importância da autoeficácia",
+      "Foca apenas em fatores externos",
     ],
-    correta: 1
+    correta: 2
   },
   {
-    pergunta: "Qual método é usado para adicionar um elemento a um array em JavaScript?",
+    pergunta: "O que é um registro de pensamento na TCC?",
     respostas: [
-      "push()",
-      "append()",
-      "add()",
+      "Um diário pessoal",
+      "Um documento para rastrear padrões de pensamento",
+      "Um registro médico",
     ],
-    correta: 0
+    correta: 2
   },
   {
-    pergunta: "O que é JSON em JavaScript?",
+    pergunta: "Qual é o papel do terapeuta na TCC?",
     respostas: [
-      "Uma linguagem de programação",
-      "Um formato de dados para intercâmbio de informações",
-      "Uma função de manipulação de strings",
+      "Apenas ouvir o paciente",
+      "Oferecer conselhos sem interação",
+      "Colaborar ativamente com o paciente na identificação e modificação de pensamentos disfuncionais",
     ],
-    correta: 1
+    correta: 3
   },
   {
-    pergunta: "Como você faz um comentário de uma linha em JavaScript?",
+    pergunta: "O que a TCC busca alcançar ao modificar pensamentos disfuncionais?",
     respostas: [
-      "// Comentário",
-      "# Comentário",
-      "/* Comentário */",
+      "Eliminar completamente todos os pensamentos",
+      "Substituir pensamentos negativos por pensamentos positivos",
+      "Manter inalterados os padrões de pensamento",
     ],
-    correta: 0
+    correta: 2
   },
   {
-    pergunta: "Qual método é usado para agendar a execução de uma função em um intervalo de tempo em JavaScript?",
+    pergunta: "Como a TCC trata as crenças nucleares ou centrais?",
     respostas: [
-      "setTimeout()",
-      "setInterval()",
-      "delay()",
+      "Ignora completamente",
+      "Explora apenas em sessões iniciais",
+      "Trabalha para modificar crenças disfuncionais profundamente enraizadas",
     ],
-    correta: 1
+    correta: 3
   },
 ];
-
 // a função queryselector dentro da função biblioteca document, 
 // me auxilia para selecionar um item do documento, facilitando
 // o uso, a modificação e a utilidade do mesmo
