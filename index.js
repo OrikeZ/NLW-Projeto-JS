@@ -1,93 +1,93 @@
 const perguntas = [
   {
-    pergunta: "Qual é o principal objetivo da Terapia Cognitivo Comportamental?",
+    pergunta: "O que significa JavaScript?",
     respostas: [
-      "Explorar o inconsciente",
-      "Identificar e modificar padrões de pensamento disfuncionais",
-      "Promover a introspecção profunda",
+      "Java para web",
+      "Linguagem de programação para páginas web interativas",
+      "Java para desenvolvimento mobile",
     ],
     correta: 1
   },
   {
-    pergunta: "Em que se baseia a TCC para tratar transtornos psicológicos?",
+    pergunta: "Qual é a principal função do comando 'document.getElementById()' em JavaScript?",
     respostas: [
-      "Apenas em medicamentos",
-      "Somente em mudanças comportamentais",
-      "Modificar pensamentos e comportamentos",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Quem são os principais fundadores da Terapia Cognitivo Comportamental?",
-    respostas: [
-      "Sigmund Freud",
-      "Aaron Beck e Albert Ellis",
-      "Carl Rogers",
+      "Alterar o estilo de um elemento HTML",
+      "Selecionar um elemento HTML pelo seu ID",
+      "Criar um novo elemento HTML",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a ênfase da TCC no tratamento de transtornos mentais?",
+    pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
     respostas: [
-      "Apenas em medicamentos",
-      "Apenas em mudanças comportamentais",
-      "Modificar pensamentos e comportamentos",
+      "var",
+      "variable",
+      "vrb",
     ],
-    correta: 3
+    correta: 0
   },
   {
-    pergunta: "O que são distorções cognitivas na Terapia Cognitivo Comportamental?",
+    pergunta: "O que é um array em JavaScript?",
     respostas: [
-      "Padrões de comportamento repetitivos",
-      "Erros sistemáticos no processamento de informações",
-      "Sintomas físicos de transtornos mentais",
+      "Um tipo de dado para armazenar apenas números",
+      "Uma estrutura de controle de fluxo",
+      "Uma coleção ordenada de valores",
     ],
     correta: 2
   },
   {
-    pergunta: "Como a TCC aborda o conceito de autoeficácia?",
+    pergunta: "O que é o DOM (Document Object Model) em JavaScript?",
     respostas: [
-      "Ignora completamente",
-      "Enfatiza a importância da autoeficácia",
-      "Foca apenas em fatores externos",
+      "Uma linguagem de programação",
+      "Um modelo para interação com o usuário",
+      "Uma representação estruturada de um documento HTML",
     ],
     correta: 2
   },
   {
-    pergunta: "O que é um registro de pensamento na TCC?",
+    pergunta: "O que é uma função em JavaScript?",
     respostas: [
-      "Um diário pessoal",
-      "Um documento para rastrear padrões de pensamento",
-      "Um registro médico",
+      "Um loop de repetição",
+      "Um bloco de código que pode ser chamado e executado",
+      "Uma variável global",
     ],
-    correta: 2
+    correta: 1
   },
   {
-    pergunta: "Qual é o papel do terapeuta na TCC?",
+    pergunta: "Qual método é usado para adicionar um elemento a um array em JavaScript?",
     respostas: [
-      "Apenas ouvir o paciente",
-      "Oferecer conselhos sem interação",
-      "Colaborar ativamente com o paciente na identificação e modificação de pensamentos disfuncionais",
+      "push()",
+      "append()",
+      "add()",
     ],
-    correta: 3
+    correta: 0
   },
   {
-    pergunta: "O que a TCC busca alcançar ao modificar pensamentos disfuncionais?",
+    pergunta: "O que é JSON em JavaScript?",
     respostas: [
-      "Eliminar completamente todos os pensamentos",
-      "Substituir pensamentos negativos por pensamentos positivos",
-      "Manter inalterados os padrões de pensamento",
+      "Uma linguagem de programação",
+      "Um formato de dados para intercâmbio de informações",
+      "Uma função de manipulação de strings",
     ],
-    correta: 2
+    correta: 1
   },
   {
-    pergunta: "Como a TCC trata as crenças nucleares ou centrais?",
+    pergunta: "Como você faz um comentário de uma linha em JavaScript?",
     respostas: [
-      "Ignora completamente",
-      "Explora apenas em sessões iniciais",
-      "Trabalha para modificar crenças disfuncionais profundamente enraizadas",
+      "// Comentário",
+      "# Comentário",
+      "/* Comentário */",
     ],
-    correta: 3
+    correta: 0
+  },
+  {
+    pergunta: "Qual método é usado para agendar a execução de uma função em um intervalo de tempo em JavaScript?",
+    respostas: [
+      "setTimeout()",
+      "setInterval()",
+      "delay()",
+    ],
+    correta: 1
   },
 ];
 // a função queryselector dentro da função biblioteca document, 
